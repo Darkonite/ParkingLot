@@ -11,3 +11,6 @@
 <t:pageTemplate pageTitle="About Parking Lot">
   <h1>About Parking Lot</h1>
 </t:pageTemplate>
+<footer class="container">
+  <p>&copy; 2022 Spataru Marius Cosmin </p>
+</footer>
