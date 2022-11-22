@@ -16,7 +16,7 @@
                     <li class="nav-item">
                         <a class="nav-link
                         ${pageContext.request.requestURI.substring(pageContext.request.requestURI.lastIndexOf
-(activePage)) eq 'Cars' ? ' active' : ''}" aria-current="page" href="${pageContext.request.contextPath}/cars.jsp">Cars</a>
+("/")) eq '/cars.jsp' ? ' active' : ''}" aria-current="page" href="${pageContext.request.contextPath}/Cars">Cars</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Link</a>

@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc4a0922-5395-476f-8357-18779c5d2a1c" name="Changes" comment="Lab3: added a menu and a footer">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/servlets/Cars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/cars.jsp" afterDir="false" />
+    <list default="true" id="dc4a0922-5395-476f-8357-18779c5d2a1c" name="Changes" comment="Created the entities">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/menu.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -55,6 +53,11 @@
     "last_opened_file_path": "C:/Users/Cosmin/IdeaProjects/ParkingLot"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.parking.parkinglot.entities" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="GlassFish 6.2.5" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 6.2.5" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="hot-swap-classes" />
@@ -142,7 +145,7 @@
       <workItem from="1667894880763" duration="2696000" />
       <workItem from="1667898128967" duration="1026000" />
       <workItem from="1667900000392" duration="6000" />
-      <workItem from="1669105051447" duration="2867000" />
+      <workItem from="1669105051447" duration="3794000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1667293393982</created>
@@ -179,7 +182,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667898547843</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Created a Cars servlets and page">
+      <created>1669107974756</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669107974756</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Created the entities">
+      <created>1669108803165</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669108803165</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +217,8 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="added a page template tag and created an about" />
     <MESSAGE value="Lab3: added a menu and a footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab3: added a menu and a footer" />
+    <MESSAGE value="Created a Cars servlets and page" />
+    <MESSAGE value="Created the entities" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created the entities" />
   </component>
 </project>
