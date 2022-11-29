@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc4a0922-5395-476f-8357-18779c5d2a1c" name="Changes" comment="Changed menu.jsp" />
+    <list default="true" id="dc4a0922-5395-476f-8357-18779c5d2a1c" name="Changes" comment="Changed persistence.xml" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -145,6 +145,7 @@
       <workItem from="1667900000392" duration="6000" />
       <workItem from="1669105051447" duration="3794000" />
       <workItem from="1669109210436" duration="458000" />
+      <workItem from="1669712636442" duration="454000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1667293393982</created>
@@ -202,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669109406190</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Changed persistence.xml">
+      <created>1669712811601</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669712811601</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,6 +234,7 @@
     <MESSAGE value="Created a Cars servlets and page" />
     <MESSAGE value="Created the entities" />
     <MESSAGE value="Changed menu.jsp" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed menu.jsp" />
+    <MESSAGE value="Changed persistence.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed persistence.xml" />
   </component>
 </project>
