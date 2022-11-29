@@ -49,7 +49,7 @@ public class User {
     private String password;
     private Collection<Car> cars;
 
-    @OneToMany
+    @OneToMany(mappedBy="owner")
     public Collection<Car> getCars() {
         return cars;
     }
