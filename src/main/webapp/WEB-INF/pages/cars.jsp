@@ -32,7 +32,3 @@
 
 
 
-
-<footer class="container">
-    <p>&copy; 2022 Spataru Marius Cosmin </p>
-</footer>

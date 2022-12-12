@@ -9,6 +9,7 @@ import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import jakarta.persistence.TypedQuery;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Logger;
 
@@ -31,7 +32,20 @@ public class CarsBean {
     }
 
     private List<CarDto> copyCarsToDto(List<Car> cars) {
-        return null;
+        LOG.info("copyCarsToDto");
+
+        List<CarDto> carDtoList=new ArrayList<>();
+
+        for(Car c: cars){
+            Long idTemp=c.getId();
+            String lpTemp=c.getLicensePlate();
+            String psTemp=c.getParkingSpot();
+            User owner=c.getOwner(); String ownerName=owner.getUsername();
+            CarDto cd=new CarDto(idTemp,lpTemp,psTemp,ownerName);
+            carDtoList.add(cd);
+        }
+
+        return carDtoList;
     }
 
 public void createCar(String licensePlate, String parkingSpot, Long userId)
@@ -46,6 +60,32 @@ public void createCar(String licensePlate, String parkingSpot, Long userId)
     car.setOwner(user);
     entityManager.persist(car);
 }
+    public CarDto findById(Long carId) {
+
+        CarDto car=new CarDto();
+        List<CarDto> carDtoList = this.findAllCars();
+        for(CarDto cd: carDtoList){
+            if(cd.getId()==carId){ car=cd; }
+        }
+        return car;
+    }
 
 
+    public void updateCar(Long carId, String licensePlate, String parkingSpot, Long userId) {
+        LOG.info("updateCar");
+
+        Car car=entityManager.find(Car.class, carId);
+        car.setLicensePlate(licensePlate);
+        car.setParkingSpot(parkingSpot);
+
+        //Old owner --> Remove
+        User oldUser=car.getOwner();
+        oldUser.getCars().remove(car);
+
+        //New user --> Add
+        User user=entityManager.find(User.class,userId);
+        user.getCars().add(car);
+        car.setOwner(user);
+
+    }
 }

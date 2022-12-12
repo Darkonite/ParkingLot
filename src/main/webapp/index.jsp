@@ -4,6 +4,3 @@
 <t:pageTemplate pageTitle="Parking Lot">
     <h1>Welcome to the Parking Lot</h1>
 </t:pageTemplate>
-<footer class="container">
-    <p>&copy; 2022 Spataru Marius Cosmin </p>
-</footer>

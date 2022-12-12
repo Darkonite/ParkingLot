@@ -19,10 +19,11 @@ public class EditCar {
     @Inject
     CarsBean carsBean;
 
-     @Override
+   /*  @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         List<UserDto> users=usersBean.findAllUsers();
         request.setAttribute("users",users);
         request.getRequestDispatcher("/WEB-INF/pages/addCar.jsp").forward(request,response);
-    }
+    }*/
+
 }
