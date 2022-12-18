@@ -4,7 +4,9 @@
 
 <t:pageTemplate pageTitle="Cars">
     <h1>Cars</h1>
+    <c:if test="${pageContext.request.isUserInRole('WRITE_CARS')}">
     <a class="btn btn-primary btn-lg" href="${pageContext.request.contextPath}/AddCar",>Add Car</a>
+   </c:if>
     <div class="container text-center">
         <c:forEach var="car" items="${cars}">
         <div class="row">
@@ -18,8 +20,10 @@
                 ${car.ownerName}
             </div>
             <div>
+                <c:if test="${pageContext.request.isUserInRole('WRITE_CARS')}">
                 <a class="btn btn-secondary" href="${pageContext.request.contextPath}/EditCar?id=${car.id}">Edit
                     Car</a>
+                </c:if>
             </div>
         </div>
         </c:forEach>

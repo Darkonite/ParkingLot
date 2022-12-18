@@ -1,9 +1,6 @@
 package com.parking.parkinglot.entities;
 
-import jakarta.persistence.Basic;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.ManyToOne;
+import jakarta.persistence.*;
 
 @Entity
 public class Car {
@@ -14,6 +11,7 @@ public class Car {
     }
 
     @Id
+    @GeneratedValue
     public Long getId() {
         return id;
     }
