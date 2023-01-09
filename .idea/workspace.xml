@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc4a0922-5395-476f-8357-18779c5d2a1c" name="Changes" comment="Added a stateful EJB and a file upload.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/common/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/common/UserDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/ejb/CarsBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/ejb/CarsBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/ejb/PasswordBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/ejb/PasswordBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/ejb/UsersBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/ejb/UsersBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/entities/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/entities/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/servlets/EditCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/servlets/EditCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/servlets/proba.java" beforeDir="false" />
+    <list default="true" id="dc4a0922-5395-476f-8357-18779c5d2a1c" name="Changes" comment="Mai multe modificari. sa speram ca merge">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/servlets/Cars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/servlets/Cars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/servlets/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/servlets/Users.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +176,7 @@
       <workItem from="1671710862448" duration="3000" />
       <workItem from="1671904888997" duration="11000" />
       <workItem from="1672764380413" duration="923000" />
-      <workItem from="1673287645000" duration="6528000" />
+      <workItem from="1673287645000" duration="7083000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1667293393982</created>
@@ -296,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673291983073</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Mai multe modificari. sa speram ca merge">
+      <created>1673294429145</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1673294429145</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,7 +329,8 @@
     <MESSAGE value="Reviewed all labs and added the missing parts from project until lab 8. A few steps missing from lab 8." />
     <MESSAGE value="Added log in and usergroups. A few fixes made. last task to be remade." />
     <MESSAGE value="Added a stateful EJB and a file upload." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a stateful EJB and a file upload." />
+    <MESSAGE value="Mai multe modificari. sa speram ca merge" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mai multe modificari. sa speram ca merge" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
