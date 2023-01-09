@@ -4,26 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc4a0922-5395-476f-8357-18779c5d2a1c" name="Changes" comment="Reviewed all labs and added the missing parts from project until lab 8. A few steps missing from lab 8.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/ejb/PasswordBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/entities/UserGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/servlets/AddUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/servlets/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/servlets/Logout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/servlets/proba.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/addUser.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/login.jsp" afterDir="false" />
+    <list default="true" id="dc4a0922-5395-476f-8357-18779c5d2a1c" name="Changes" comment="Added log in and usergroups. A few fixes made. last task to be remade.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/common/CarPhotoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/ejb/InvoiceBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/entities/CarPhoto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/servlets/AddCarPhoto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/servlets/CarPhotos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/addCarPhoto.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/ejb/CarsBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/ejb/CarsBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/ejb/UsersBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/ejb/UsersBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/entities/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/entities/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/servlets/AddCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/servlets/AddCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/servlets/Cars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/servlets/Cars.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/servlets/EditCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/servlets/EditCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/addCar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/addCar.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/servlets/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/servlets/Users.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/cars.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/cars.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/menu.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/users.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/users.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +33,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -66,20 +60,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.highlight.mappings&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.highlight.symlinks&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Cosmin/IdeaProjects/ParkingLot&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
+    "WebServerToolWindowPanel.toolwindow.show.date": "false",
+    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
+    "WebServerToolWindowPanel.toolwindow.show.size": "false",
+    "last_opened_file_path": "C:/Users/Cosmin/Desktop/ParkingLot"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.parking.parkinglot.entities" />
@@ -188,7 +182,12 @@
       <workItem from="1670876684930" duration="2277000" />
       <workItem from="1670879395244" duration="479000" />
       <workItem from="1670919522238" duration="3936000" />
-      <workItem from="1671383493698" duration="8948000" />
+      <workItem from="1671383493698" duration="9229000" />
+      <workItem from="1671526670877" duration="3036000" />
+      <workItem from="1671710862448" duration="3000" />
+      <workItem from="1671904888997" duration="11000" />
+      <workItem from="1672764380413" duration="923000" />
+      <workItem from="1673287645000" duration="4264000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1667293393982</created>
@@ -288,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670879323810</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added log in and usergroups. A few fixes made. last task to be remade.">
+      <created>1671396349597</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1671396349597</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,6 +324,7 @@
     <MESSAGE value="Created the ejb, remianing task 7 lab 7 to do" />
     <MESSAGE value="Created all pages and methods until page EditCar servlet. Remaining the rest." />
     <MESSAGE value="Reviewed all labs and added the missing parts from project until lab 8. A few steps missing from lab 8." />
-    <option name="LAST_COMMIT_MESSAGE" value="Reviewed all labs and added the missing parts from project until lab 8. A few steps missing from lab 8." />
+    <MESSAGE value="Added log in and usergroups. A few fixes made. last task to be remade." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added log in and usergroups. A few fixes made. last task to be remade." />
   </component>
 </project>
