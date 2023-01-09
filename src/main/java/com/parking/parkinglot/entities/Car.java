@@ -5,6 +5,11 @@ import jakarta.persistence.*;
 @Entity
 public class Car {
     private Long id;
+    private String licensePlate;
+    private String parkingSpot;
+
+    private User owner;
+    private CarPhoto photo;
 
     public void setId(Long id) {
         this.id = id;
@@ -32,16 +37,10 @@ public class Car {
         this.parkingSpot = parkingSpot;
     }
 
-    private String licensePlate;
-    private String parkingSpot;
-
-    private User owner;
-    private CarPhoto photo;
     @OneToOne(mappedBy = "car", cascade=CascadeType.ALL,fetch=FetchType.LAZY)
     public CarPhoto getPhoto() {
         return photo;
     }
-
     public void setPhoto(CarPhoto photo) {
         this.photo = photo;
     }

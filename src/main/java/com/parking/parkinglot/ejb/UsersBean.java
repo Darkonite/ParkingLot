@@ -34,20 +34,14 @@ public class UsersBean {
     }
 
     private List<UserDto> copyUsersToDto(List<User> users) {
-        LOG.info("copyUsersToDto");
+        List<UserDto> userDtoList = new ArrayList<>();
 
-        List<UserDto> userDtoList = new ArrayList<UserDto>();
-
-        for (User u : users) {
-            String emailTemp = u.getEmail();
-            String usernameTemp = u.getUsername();
-            Long userId = u.getId();
-            UserDto udt = new UserDto(emailTemp, usernameTemp, userId);
-            userDtoList.add(udt);
+        for(User u : users){
+            userDtoList.add(new UserDto(u.getId(), u.getUsername(), u.getEmail(), u.getPassword()));
         }
-
         return userDtoList;
     }
+
 
     public void createUser(String username, String email, String password, Collection<String> groups) {
         LOG.info("createUser");

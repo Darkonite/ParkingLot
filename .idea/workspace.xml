@@ -4,20 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc4a0922-5395-476f-8357-18779c5d2a1c" name="Changes" comment="Added log in and usergroups. A few fixes made. last task to be remade.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/common/CarPhotoDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/ejb/InvoiceBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/entities/CarPhoto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/servlets/AddCarPhoto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/servlets/CarPhotos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/addCarPhoto.jsp" afterDir="false" />
+    <list default="true" id="dc4a0922-5395-476f-8357-18779c5d2a1c" name="Changes" comment="Added a stateful EJB and a file upload.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/common/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/common/UserDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/ejb/CarsBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/ejb/CarsBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/ejb/PasswordBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/ejb/PasswordBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/ejb/UsersBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/ejb/UsersBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/entities/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/entities/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/servlets/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/servlets/Users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/cars.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/cars.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/users.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/users.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/servlets/EditCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/servlets/EditCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/servlets/proba.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +182,7 @@
       <workItem from="1671710862448" duration="3000" />
       <workItem from="1671904888997" duration="11000" />
       <workItem from="1672764380413" duration="923000" />
-      <workItem from="1673287645000" duration="4264000" />
+      <workItem from="1673287645000" duration="6528000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1667293393982</created>
@@ -294,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671396349597</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Added a stateful EJB and a file upload.">
+      <created>1673291983073</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1673291983073</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,6 +327,19 @@
     <MESSAGE value="Created all pages and methods until page EditCar servlet. Remaining the rest." />
     <MESSAGE value="Reviewed all labs and added the missing parts from project until lab 8. A few steps missing from lab 8." />
     <MESSAGE value="Added log in and usergroups. A few fixes made. last task to be remade." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added log in and usergroups. A few fixes made. last task to be remade." />
+    <MESSAGE value="Added a stateful EJB and a file upload." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a stateful EJB and a file upload." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/com/parking/parkinglot/entities/Car.java</url>
+          <line>6</line>
+          <properties field="id" class="com.parking.parkinglot.entities.Car" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

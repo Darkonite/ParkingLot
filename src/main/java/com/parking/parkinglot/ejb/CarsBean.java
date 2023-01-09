@@ -12,6 +12,7 @@ import jakarta.persistence.PersistenceContext;
 import jakarta.persistence.TypedQuery;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 import java.util.logging.Logger;
 
@@ -89,6 +90,16 @@ public void createCar(String licensePlate, String parkingSpot, Long userId)
         user.getCars().add(car);
         car.setOwner(user);
 
+    }
+
+    public void deleteCarsByIds(Collection<Long> carIds){
+        LOG.info("deleteCarsByIds");
+
+        for( Long carId : carIds){
+            Car car = entityManager.find(Car.class, carId);
+            entityManager.remove(car);
+
+        }
     }
     public void addPhotoToCar(Long carId, String filename, String fileType, byte[] fileContent) {
         LOG.info("addPhotoToCar");
